@@ -1,0 +1,298 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=PT+Serif:ital@1&family=Playfair+Display:wght@500&display=swap'); */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.sidebar{
+    /* background-color: red; */
+    background-color: rgb(166, 161, 161);
+    /* width: 300px;   */
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+    /* transform: translate(0px, -77px); */
+}
+ 
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+
+.sidebar nav{
+    width: 7vw;
+    padding: 42px;
+    height: 100vh;
+
+
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 26px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.sidebar nav li  a{
+    text-decoration: none;
+    color: white;
+}
+
+.info{
+    /* background-color: rgb(221, 174, 174);   */
+    height: 58vh;
+    width: 60vw;
+    margin: 77px auto;
+    display: flex;
+    justify-content: space-around;
+}
+     
+
+element.style {
+    margin: 50px auto;
+}
+.devpic img{
+    height: 58vh;
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 32px;
+    font-weight: 200;
+    font-family: monospace;
+}
+
+.name{
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-family: monospace;
+    margin: 3px;
+}
+
+.about{
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-family:monospace ;
+    margin: 3px;
+}
+.moreabout{
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: monospace;
+}
+.btn{
+    margin-top: 26px;
+}
+.btn{
+    padding: 6px;
+    border-radius: 16px;
+    color: white;
+    background-color: #9b9898;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+
+.buttun{
+    padding: 8px 10px;
+    border: 2px solid grey;
+    background-color: rgb(147, 147, 147);
+}
+.btn:hover{
+    color: #9b9898;
+    background-color: white;
+}
+
+.contactform{
+    padding: 75px 65px;
+    font-family: sans-serif; 
+}
+.contactform h1{
+    font-family: monospace;
+    text-align: center;
+}
+.contactform form div{
+    padding: 10px;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: pink; */
+}
+.contactform form div input{
+    width: 15vw;
+    border-radius: 5px;
+    margin: 6px 0px;
+    padding: 3px;
+}
+form{
+    padding: 16px;
+    margin: 15px;
+}
+.contactform form div.form-text {
+    padding-left: 0px;
+    font-size: 11px;
+    color: #9c6c6c;
+    margin-top: -10px;
+}
+#isclient{
+    margin-left: 0px;
+    display: flex;
+    justify-content: flex-start;
+    width: 20px;
+    margin-top: 2px;
+}
+#clientemail{
+    width: 16vw;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 3px;
+}
+#clientphone{
+    width: 16vw;
+    border-radius: 5px;
+    margin-top: 7px;
+    padding: 2px;
+}
+
+.form-check-input{
+     width: 5px;
+}
+#form-check{
+    flex-direction: row;
+}
+
+.blogitem{
+    margin: 20px;
+    font-family: sans-serif;
+}
+.blogcontainer h1{
+    font-family: sans-serif;
+    margin: 22px;
+}
+/* .blogitem h2{
+
+} */
+.blogitem p{
+    font-family: monospace;
+}
+
+.blogbtn{   
+    padding: 6px;
+    border-radius: 16px;
+    color: white;
+    background-color: #9b9898;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+.blogbtn:hover{
+    color: white;
+    background-color: rgb(164, 200, 224);
+}
+.infocontainer{
+    display: flex;
+    justify-content: space-around;
+}
+.skill{
+    margin: 5px;
+    margin-left: 5px;
+    width: 250px;
+    height: 15px;
+    border-radius: 8px;
+    border: 1.8px solid grey;
+}
+.intro{
+    margin: 23px;
+    padding: 30px;
+}
+.skillitem{
+    display: flex;
+    font-weight: 500;
+    align-items: center;
+}
+.hundred{
+    width: 250px;
+    /* background-color: rgb(79, 235, 235); */
+    background-color: rgb(76, 253, 247);
+}
+.s5{
+    width: 200px;
+    background-color: rgb(97, 183, 154);
+}
+.fifty{
+    width: 150px;
+    background-color: rgb(145, 225, 225);
+}
+.t5{
+    width: 100px;
+    background-color: bisque;
+}
+
+@media (max-width: 1520px) {
+    /* *{
+        background-color: red;
+    }
+    .sidebar{
+        transform: translate(-400px,0px);
+        position: absolute;
+    } */
+    .devpic{
+        display: none;
+    }
+  }
+
+  .hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    left: 30px;
+}
+
+.cross{
+    margin-left: 128px;
+    /* display: flex; */
+}
+
+.sidebargo{
+    transform: translate(-400px, 0px);
+    position: absolute;
+}
+.menu{
+    margin: -8px;
+}
+#jugad{
+    margin-top: -77px;
+}
+
+.all{
+    margin: 40px 20px 20px 250px;
+}
+.services{
+    margin-bottom: 50px;
+}
+.serviceitem{
+    font-family: monospace;
+    margin-left:30px ;
+    
+}
+.services h1{
+    margin-bottom:18px;
+}
+.serviceitem li{
+    padding: 7px;
+    font-size: 15px;
+}
